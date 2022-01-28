@@ -1,0 +1,132 @@
+body{
+    background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  25px;
+    margin: auto;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    
+   
+
+}
+
+.container{
+    background: no-repeat    url(img/imagem-principal.jpg) ;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+
+.logo{
+    width: 500px;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+header nav a:hover{
+    color: #ff6e6c;
+}
+
+.navegacao{
+
+    position: relative;
+    margin-left: 960px;
+    margin-top: 65px;
+    border-radius: 53px;
+    
+    box-shadow:  -26px 26px 51px #cacaca,
+             26px -26px 51px #f6f6f6;
+}
+
+
+.conteudo{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+
+
+.title{
+    margin-left: 1700px;
+    position: absolute;
+   
+}
+
+.title2{
+
+    position: absolute;
+    margin-left: 100px;
+}
+.text{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 90px;
+    margin-top: 200px;
+}
+
+.imagem{
+
+margin: 140px;
+width: 100%;
+height: 100%;
+}
+
+.personagens{
+
+    margin: 100px;
+    width: 760px;
+    height: 397px;
+}
+
+.picmahito{
+    margin: 100px;
+    width: 760px;
+    height: 397px;
+}
+
+.gojou{
+    margin: 100px;
+    width: 760px;
+    height: 397px;
+}
+
+.nanami1{
+    margin: 100px;
+    width: 760px;
+    height: 397px;
+
+}
+
+
+
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}
